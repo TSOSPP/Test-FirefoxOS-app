@@ -1,0 +1,26 @@
+{
+  "name": "Just a test",
+  "description": "Just a test of an HTML app",
+  "launch_path": "/index.html",
+  "icons": {
+    "512": "/img/icon-512.png"
+  },
+  "developer": {
+    "name": "TSOSPP",
+    "url": "http://thespecters.gq"
+  },
+  "default_locale": "en",
+  "type": "privilaged",
+  "datastores-owned": {
+    "testData": {
+      "access": "readwrite",
+      "description": "Main data store"
+    }
+  },
+  "permissions": {
+    "desktop-notification": {
+      "description": "Needed for creating system notifications."
+    }
+  },
+  "origin": "app://justatest.app"
+}
