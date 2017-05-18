@@ -17,5 +17,10 @@
       "description": "Main data store"
     }
   },
+  "permissions": {
+    "desktop-notification": {
+      "description": "Needed for creating system notifications."
+    }
+  },
   "origin": "app://justatest.app"
 }
